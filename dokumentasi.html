@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gallery-item .description {
+            padding: 15px;
+        }
+
+        .gallery-item h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .gallery-item p {
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-item {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-item {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Dokumentasi</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="resepsi.jpg" alt="Foto 1">
+                <div class="description">
+                    <h3>RESEPSI</h3>
+                    <p>Acara Resepsi kemerdekaan.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="kerjabakti.jpg" alt="Foto 2">
+                <div class="description">
+                    <h3>KERJABAKTI</h3>
+                    <p>Kerjabakti bersama warga.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="lomba.jpg" alt="Foto 3">
+                <div class="description">
+                    <h3>PERLOMBAAN</h3>
+                    <p>Perlombaan kemerdekaan.</p>
+                    </div>
+                    </div>
+                   <div class="gallery-item">
+                <img src="kreativitas.jpg" alt="Foto 3">
+                <div class="description">
+                    <h3>KREATIVITAS</h3>
+                    <p>Kreativitas untuk acara kemerdekaan.</p>
+                </div>
+                </div>
+               <div class="gallery-item">
+                <img src="hias.jpg" alt="Foto 2">
+                <div class="description">
+                    <h3>MENGHIAS KAMPUNG</h3>
+                    <p>Menghias kampung di komplex pondok asri.</p>
+                </div>
+            </div>
+           <div class="gallery-item">
+                <img src="muharram.jpg" alt="Foto 2">
+                <div class="description">
+                    <h3>1 MUHARRAM</h3>
+                    <p>Acara memperingati 1 muharram.</p>
+                </div>
+                </div>
+               <div class="gallery-item">
+                <img src="foto1.jpg" alt="Foto 1">
+                <div class="gallery-item">
+                <img src="foto2.jpg" alt="Foto 2">
+                <div class="gallery-item">
+                <img src="foto3.jpg" alt="Foto 3">
+                <div class="gallery-item">
+                <img src="foto4.jpg" alt="Foto 4">
+                <div class="description">
+                    <h3>FOTO BERSAMA</h3>
+                    <p>Fotbar kuyy.</p>
+                </div>
+            <!-- Tambahkan lebih banyak item galeri sesuai kebutuhan -->
+        </div>
+    </div>
+</body>
+</html>
